@@ -1,9 +1,14 @@
 body{
+    align-items: center;
+    background: #FCDC49;
+    background: linear-gradient(156deg, rgba(241,166,60,1) 0%, rgba(252,220,73,1) 60%, rgba(254,253,192,1) 100%);
+    background-attachment: fixed;
     display: flex;
     flex-flow: column;
-    align-items: center;
+    margin: 0;
 }
 
 #invite{
     height: 100vh;
+    max-width: 100%;
 }

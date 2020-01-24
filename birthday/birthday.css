@@ -3,3 +3,7 @@ body{
     flex-flow: column;
     align-items: center;
 }
+
+#invite{
+    height: 100vh;
+}

@@ -23,8 +23,8 @@ body{
 /*ANIMATIONS*/
 
 .slide-in-bck-center {
-	-webkit-animation: slide-in-bck-center 0.7s ease-in-out both;
-	        animation: slide-in-bck-center 0.7s ease-in-out both;
+	-webkit-animation: slide-in-bck-center 0.7s ease-in-out 1s both;
+	        animation: slide-in-bck-center 0.7s ease-in-out 1s both;
 }
 
 /**

@@ -29,7 +29,7 @@ p{
 
 /*ANIMATIONS*/
 
-.slide-in-bck-center {
+.slide-in-bck-center-1 {
 	-webkit-animation: slide-in-bck-center 0.7s ease-in-out 1s both;
 	        animation: slide-in-bck-center 0.7s ease-in-out 1s both;
 }

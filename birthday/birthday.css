@@ -34,6 +34,16 @@ p{
 	        animation: slide-in-bck-center 0.7s ease-in-out 1s both;
 }
 
+.slide-in-bck-center-2 {
+	-webkit-animation: slide-in-bck-center 0.7s ease-in-out 1.3s both;
+	        animation: slide-in-bck-center 0.7s ease-in-out 1.3s both;
+}
+
+.slide-in-bck-center-3 {
+	-webkit-animation: slide-in-bck-center 0.7s ease-in-out 1.6s both;
+	        animation: slide-in-bck-center 0.7s ease-in-out 1.6s both;
+}
+
 /**
  * ----------------------------------------
  * animation slide-in-bck-center

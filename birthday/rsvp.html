@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>RSVP Lee's 30th Birthday - 13 Going on 30</title>
-      <link rel="stylesheet" href="birthday.css" />
-  </head>
-  <body>
-      <div class="invite-wrap">
+    <link rel="stylesheet" href="birthday.css" />
+</head>
 
-            <object type="image/svg+xml" data="images/inviteClean.svg">Invite Image</object>
-            
-      </div>
-    <section id="form">
-        <form name="RSVP" data-netlify="true" method="post">
-          <p>
-            <label>Name</label><br>
-            <input type="text" name="name">
-          </p>
-          <p>
-              Plus 1?
-            <label>
-              <input type="radio" name="plus1" value="yes">
-              Yes
-            </label>
-            <label>
-              <input type="radio" name="plus1" value="no">
-              No
-            </label>
-          </p>
-          <p>
-            <label>Song request</label><br>
-            <input type="tel" name="song_request">
-          </p>
-          <p>
-            <label>Food allergies</label><br>
-            <input type="password" name="food_allergies">
-          </p>
-          <p>
-            <button>RSVP</button>
-            <button type="reset">Reset form</button>
-          </p>
-        </form>
-    </section>
-  </body>
+<body>
+    <div class="width-container">
+        <div class="invite-wrap">
+
+            <object type="image/svg+xml" data="images/inviteClean.svg" id="invite">Invite Image</object>
+
+        </div>
+        <section id="form">
+            <form name="RSVP" data-netlify="true" method="post">
+                <p>
+                    <label>Name</label>
+                    <br>
+                    <input type="text" name="name">
+                </p>
+                <p>
+                    Plus 1?
+                    <label>
+                        <input type="radio" name="plus1" value="yes"> Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="plus1" value="no"> No
+                    </label>
+                </p>
+                <p>
+                    <label>Song request</label>
+                    <br>
+                    <input type="tel" name="song_request">
+                </p>
+                <p>
+                    <label>Food allergies</label>
+                    <br>
+                    <input type="password" name="food_allergies">
+                </p>
+                <p>
+                    <button>RSVP</button>
+                    <button type="reset">Reset form</button>
+                </p>
+            </form>
+        </section>
+    </div>
+</body>
+
 </html>

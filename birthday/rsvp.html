@@ -14,47 +14,60 @@
             <object type="image/svg+xml" data="images/cleaned2.svg" id="invite">Invite Image</object>
 
         </div>
-        <section id="form">
-            <form name="RSVP" data-netlify="true" method="post">
+        <div class="wrapper">
+            <section id="form">
+                <form name="RSVP" data-netlify="true" method="post">
+                    <p>
+                        <label>Name/s</label>
+                        <br>
+                        <input type="text" name="name" placeholder="Who's coming?">
+                    </p>
+                    <p>
+                        Plus 1?<br />
+                        <label>
+                            Yes <input type="radio" name="plus1yes" value="yes">
+                        </label>
+                        <label>
+                            No <input type="radio" name="plus1no" value="no">
+                        </label>
+                    </p>
+                    <p>
+                        Children are welcome, are you bringing yours?<br />
+                        <label>
+                            Yes <input type="radio" name="childrenYes" value="yes">
+                        </label>
+                        <label>
+                            No <input type="radio" name="childrenYes" value="no">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Song request</label>
+                        <br>
+                        <input type="text" name="song_request" placeholder="Your favourite song when you were 13 (ish)">
+                    </p>
+                    <p>
+                        <label>Food allergies</label>
+                        <br>
+                        <input type="text" name="food_allergies" placeholder="I don't want to practice first aid, please!">
+                    </p>
+                    <p>
+                        <button>RSVP</button>
+                        <button type="reset">Reset form</button>
+                    </p>
+                </form>
+            </section>
+            <section id="info">
                 <p>
-                    <label>Name/s</label>
-                    <br>
-                    <input type="text" name="name" placeholder="Who's coming?">
+                    Local hotels
                 </p>
                 <p>
-                    Plus 1?<br />
-                    <label>
-                        Yes <input type="radio" name="plus1yes" value="yes">
-                    </label>
-                    <label>
-                        No <input type="radio" name="plus1no" value="no">
-                    </label>
+                    Gifts
                 </p>
                 <p>
-                    Children are welcome, are you bringing yours?<br />
-                    <label>
-                        Yes <input type="radio" name="childrenYes" value="yes">
-                    </label>
-                    <label>
-                        No <input type="radio" name="childrenYes" value="no">
-                    </label>
+                    Entertainment info
                 </p>
-                <p>
-                    <label>Song request</label>
-                    <br>
-                    <input type="text" name="song_request" placeholder="Your favourite song when you were 13 (ish)">
-                </p>
-                <p>
-                    <label>Food allergies</label>
-                    <br>
-                    <input type="text" name="food_allergies" placeholder="I don't want to practice first aid, please!">
-                </p>
-                <p>
-                    <button>RSVP</button>
-                    <button type="reset">Reset form</button>
-                </p>
-            </form>
-        </section>
+            </section>
+        </div>
     </div>
 </body>
 

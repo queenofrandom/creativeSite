@@ -73,6 +73,17 @@ button {
     }
     .width-container{
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #invite{
+        height: 98vh;
+        max-width: 100%;
+    }
+    
+    .invite-wrap, .wrapper{
+        width: 50%;
     }
     
     section#form{

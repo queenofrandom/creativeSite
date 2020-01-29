@@ -26,6 +26,10 @@ p{
     flex-wrap: nowrap;
 }
 
+.invite-wrap, .wrapper{
+    width: 100%;
+}
+
 #invite{
     height: 100vh;
     max-width: 100%;

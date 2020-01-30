@@ -13,17 +13,16 @@ body{
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 2em;
     font-weight: 700;
 }
 
 p{
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 .width-container{
-    display: flex;
-    flex-wrap: wrap;
+    width:99%;
 }
 
 .invite-wrap, .wrapper{
@@ -76,9 +75,11 @@ button {
         font-size: 1em;
     }
     .width-container{
+        align-items: center;
+        display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        width: 100%;
     }
     
     #invite{

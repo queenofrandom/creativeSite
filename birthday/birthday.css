@@ -28,6 +28,12 @@ a{
     transition: all 0.3s ease;
 }
 
+.link2{
+    font-weight: 700;
+    text-decoration: underline;
+    transition: none;
+}
+
 a:hover{
     transform: translateX(0.5em)
 }
@@ -39,6 +45,10 @@ a:after{
     right: -40px;
     top: 5%;
     transition: all 0.3s ease-in-out;
+}
+
+.link2:after{
+    content: ' ';
 }
 
 a:hover:after{

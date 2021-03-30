@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "personal-blog-dffd8",
+    "testing": "personal-blog-dffd8",
+    "staging": "personal-blog-dffd8"
+  }
+}
